@@ -25,8 +25,8 @@ def sort_on(dict_count):
 def sorted_dict(dict_count):
     final_list = []
     for char in dict_count:
-        char_name = char
-        char_count = dict_count[char]
+        #key = char
+        #value = dict_count[char]
         sorted_dict = {"char": char, "num": dict_count[char]}
         final_list.append(sorted_dict)
     final_list.sort(reverse=True, key=sort_on)
